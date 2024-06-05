@@ -1,15 +1,27 @@
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
 [project]
-name = "helpers_alphonseluca"
-version = "0.0.1"
-authors = [{ name = "alphonse luca", email = "alphonseluca@163.com" }]
-description = "a lot of helpers"
+name = "luca_frames"
+version = "0.0.4"
+description = "A small package with helper functions"
 readme = "README.md"
-requires-python = ">=3.8"
+license = { file = "LICENSE" }
+authors = [{ name = "alphonse luca", email = "alphonseluca@163.com" }]
+requires-python = ">=3.6"
 classifiers = [
   "Programming Language :: Python :: 3",
   "License :: OSI Approved :: MIT License",
   "Operating System :: OS Independent",
 ]
+dependencies = []
+
+# [tool.setuptools]
+# package-dir = {"" = "src"}
+
+# [tool.setuptools.packages.find]
+# where = ["src"]
 
 [project.urls]
 Homepage = "https://github.com/Zoneee/py_helpers"
